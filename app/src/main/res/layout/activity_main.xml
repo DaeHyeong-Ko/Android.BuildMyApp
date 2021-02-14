@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EATING THE WORLD : NEW RESTAURANT NAME"
+        android:fontFamily="sans-serif"
+        android:textColor="#000000"
+        android:padding="8dp"
+        android:id="@+id/world"
+        android:background="#9E9E9E"
+        android:textFontWeight="900"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't You Know this Restaurant? It's a Guilty"
+        android:fontFamily="sans-serif"
+        android:textFontWeight="900"
+        android:textColor="#000000"
+        android:padding="4dp"
+        android:id="@+id/Guilty"
+        android:layout_below="@id/world"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="250dp"
+        android:id="@+id/entrance"
+        android:src="@drawable/entrance"
+        android:padding="2dp"
+        android:layout_below="@id/Guilty"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comfort and Warming Seat\n Talking With Kind Cheff"
+        android:textFontWeight="900"
+        android:layout_gravity="center"
+        android:layout_below="@id/entrance"
+        android:id="@+id/comfort"
+        android:textSize="15sp"
+        android:layout_marginLeft="8dp"
+        android:fontFamily="sans-serif"
+        android:textColor="#000000"
+        />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:src="@drawable/location"
+        android:layout_toRightOf="@id/entrance"
+        android:layout_below="@id/world"
+        android:layout_marginTop="36dp"
+        android:id="@+id/lo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location : Shinpyeong-dong in Busan, S.K"
+        android:layout_below="@id/lo"
+        android:layout_toRightOf="@id/entrance"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:textFontWeight="900"
+        android:textColor="#000000"
+        android:id="@+id/location"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="P.N : 010-4476-8980"
+        android:layout_below="@id/location"
+        android:layout_toRightOf="@id/entrance"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:textFontWeight="900"
+        android:textColor="#000000"
+        android:id="@+id/PN"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Operation Hour : Everyday, 11:00 - 23:00"
+        android:layout_below="@id/PN"
+        android:layout_toRightOf="@id/entrance"
+        android:textSize="14sp"
+        android:fontFamily="sans-serif"
+        android:textFontWeight="900"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our Menu"
+        android:id="@+id/Menu"
+        android:layout_gravity="center"
+        android:layout_below="@id/comfort"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textFontWeight="900"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp"
+        android:background="#9E9E9E"
+        />
+
+    <ImageView
+        android:layout_width="155dp"
+        android:layout_height="100dp"
+        android:id="@+id/menu1"
+        android:src="@drawable/menu1"
+        android:layout_below="@id/Menu"
+        android:padding = "2dp"
+        android:layout_marginTop="4dp"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/menu2"
+        android:src="@drawable/menu2"
+        android:layout_below="@id/Menu"
+        android:layout_toRightOf="@id/menu1"
+        android:padding = "2dp"
+        android:layout_marginTop="4dp"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/menu3"
+        android:src="@drawable/menu3"
+        android:layout_below="@id/Menu"
+        android:layout_toRightOf="@id/menu2"
+        android:padding = "2dp"
+        android:layout_marginTop="4dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Salmon Sushi"
+        android:layout_alignLeft="@id/menu1"
+        android:layout_gravity="center"
+        android:layout_below="@id/menu1"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textFontWeight="900"
+        android:textColor="#000000"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="16dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.Raw Beef"
+        android:layout_alignLeft="@id/menu2"
+        android:layout_gravity="center"
+        android:layout_below="@id/menu1"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textFontWeight="900"
+        android:textColor="#000000"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="8dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3.Raw Fish"
+        android:layout_alignLeft="@id/menu3"
+        android:layout_gravity="center"
+        android:layout_below="@id/menu1"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textFontWeight="900"
+        android:textColor="#000000"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/Fish"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comment"
+        android:layout_gravity="center"
+        android:layout_below="@id/Fish"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textFontWeight="900"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp"
+        android:background="#9E9E9E"
+        android:id="@+id/Comment"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Always, We waiting for You,
+        \n                Every Day we want to see you,
+        \n                       and offer delicated Food for you
+        \n                           From. Mr. JANG(Best Cheff)"
+        android:layout_below="@id/Comment"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif"
+        android:textFontWeight="900"
+        android:textColor="#000000"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="8dp"
+        android:id="@+id/talk"
+        />
+
+</RelativeLayout>
